@@ -24,4 +24,5 @@ app.get("/to-hex/:decimal", (req, res) => {
 
 app.listen(port, () => {
     console.log(`Servidor rodando com sucesso na porta ${port}!`);
-});
+}); 
+// teste merge
