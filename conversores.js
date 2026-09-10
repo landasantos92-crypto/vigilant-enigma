@@ -1,9 +1,12 @@
-function decimalParaHex(numero) {
-  return numero.toString(16).toUpperCase();
+function decimalParaHexadecimal(decimal) {
+  return Number(decimal).toString(16).toUpperCase();
 }
 
-function decimalParaOctal(numero) {
-  return numero.toString(8);
+function decimalParaOctal(decimal) {
+  return Number(decimal).toString(8);
 }
 
-module.exports = { decimalParaHex, decimalParaOctal };
+module.exports = {
+  decimalParaHexadecimal,
+  decimalParaOctal
+};
